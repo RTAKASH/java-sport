@@ -1,0 +1,241 @@
+
+
+.header1 {
+    background-color:rgb(223, 223, 223);
+    position: absolute;
+    width: 100%; 
+    height: 25px;
+    left: 0;
+    top: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+
+}
+
+.navbar-list li {
+    margin-right: 20px; 
+}
+
+.navbar-list li:last-child {
+    margin-right: 0; 
+}
+
+.navbar-list li a {
+    color: #999999;
+    text-decoration: none; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+ 
+  .java-sports-logo {
+     
+    height: auto;
+    padding-left: 100px;
+  }
+  
+ 
+  .sports-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+  }
+  
+  .sports-navbar li {
+    margin-right: 50px;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .sports-navbar li:last-child {
+    margin-right: 20; 
+  }
+  
+  .image-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px; 
+  }
+  
+  .sports-navbar li a {
+    color: #190101;
+    text-decoration: none;
+  }
+  
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: auto; 
+    height: 200px;
+    padding: 0 10px; 
+    border-radius: 20px; 
+    padding-left: 0px;
+   
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: #D9D9D9;
+    color: #8996A2;
+    width: 700px; 
+  }
+
+    .search-bar img.search {
+        width: 20px; 
+        height: 20px; 
+        cursor: pointer; 
+        margin-left: -50px; 
+    }
+    .navbar2 {
+        background-color: white; 
+        padding: 10px; 
+        text-align: center;
+        
+    }
+      
+    .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+      
+    .nav-links li {
+        display: inline-block; 
+        margin-right: 100px; 
+        margin-left: 100px;
+    }
+    
+    .nav-links li:last-child {
+        margin-right: 0; 
+    }
+      
+    .nav-links li a {
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+    }
+    
+    .color-box {
+        background-color: lightgrey;
+        padding-top: 0px;
+        padding-bottom:0px;
+       
+    }
+    
+    .navigation {
+        list-style: none;
+        display: flex;
+        padding-left: 100px; 
+    }
+    
+    .navigation li {
+        display: flex; 
+        align-items: center; 
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .navigation span {
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    .colors-box
+    {
+        background-color: lightgray;
+        margin-bottom: 3px;
+        color: lightgray;
+    }
+  
+    @media screen and (max-width: 768px) {
+        .java-sports-logo {
+            padding-left: 0;
+            justify-content: center;
+            width: 100%;
+        }
+    
+        .search-bar {
+            width: 100%;
+        }
+    
+        .sports-navbar li:not(:nth-child(2)),
+        .sports-navbar li:not(:nth-child(3)) {
+            display: none;
+        }
+    
+        .navbar2 {
+            display: block; 
+        }
+    
+        .colors-box {
+            display: block;
+        }
+    }
+ 
+    .notification-count {
+        position: absolute;
+        top: 86px;
+        right: 234px;
+        background-color: red;
+        color: white;
+        font-size: 12px;
+        width: 15px;
+        height: 15px;
+        border-radius: 29%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
